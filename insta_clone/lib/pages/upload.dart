@@ -306,9 +306,6 @@ class _UploadState extends State<Upload> {
         ' ${placemark.country}';
     print(completeAddress);
 
-  //  print('${placemark.subLocality},${placemark.locality}-${placemark.postalCode},${placemark.administrativeArea},${placemark.country}');
-  //  String formattedAddress = "${placemark.locality}, ${placemark.country}";
-
     String formattedAddress = '${placemark.subLocality},${placemark.locality}-${placemark.postalCode},${placemark.administrativeArea},${placemark.country}';
 
    //  String formattedAddress = '${placemark.subThoroughfare} ${placemark.thoroughfare},'
